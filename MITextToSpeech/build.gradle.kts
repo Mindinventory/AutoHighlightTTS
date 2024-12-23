@@ -43,9 +43,6 @@ publishing {
         register<MavenPublication>("release") {
             afterEvaluate {
                 from(components["release"])
-                groupId = "com.github.Mindinventory"
-                artifactId = "mitexttospeech"
-                version = "1.0.0"
             }
         }
     }
