@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.compose.compiler)
+    id("maven-publish")
 }
 
 android {
@@ -34,6 +35,19 @@ android {
     }
     kotlinOptions {
         jvmTarget = "17"
+    }
+}
+
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            afterEvaluate {
+                from(components["release"])
+                groupId = "com.github.Mindinventory"
+                artifactId = "mitexttospeech"
+                version = "1.0.0"
+            }
+        }
     }
 }
 
