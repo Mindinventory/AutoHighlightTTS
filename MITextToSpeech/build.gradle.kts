@@ -38,16 +38,6 @@ android {
     }
 }
 
-publishing {
-    publications {
-        register<MavenPublication>("release") {
-            afterEvaluate {
-                from(components["release"])
-            }
-        }
-    }
-}
-
 dependencies {
     with(libs) {
 
