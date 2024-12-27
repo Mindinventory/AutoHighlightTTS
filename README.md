@@ -1,7 +1,7 @@
 <a href="https://www.mindinventory.com/?utm_source=gthb&utm_medium=repo&utm_campaign=lassi"><img src="https://github.com/Sammindinventory/MindInventory/blob/main/Banner.png"></a>
 
-# MiTextToSpeech [![](https://jitpack.io/v/Mindinventory/MiTextToSpeech.svg)](https://jitpack.io/#Mindinventory/MiTextToSpeech)
-MiTextToSpeech is the simplest way to integrate TextToSpeech functionality into your application.
+# AutoHighlightTTS [![](https://jitpack.io/v/Mindinventory/AutoHighlightTTS.svg)](https://jitpack.io/#Mindinventory/AutoHighlightTTS)
+**AutoHighlightTTS** is a powerful and simple solution for integrating Text to Speech functionality into your Android app. It features automatic sentence highlighting with customizable styles, auto-scrolling text during playback, and options to set language, pitch, and speech rate. With inbuilt controls like play, pause, backward/forward by one sentence, AutoHighlightTTS ensures a seamless and interactive TTS experience for your users.
 ## Screenshots
 
 
@@ -59,7 +59,7 @@ https://github.com/user-attachments/assets/0069bbd0-9b1e-4e40-af84-151fd4a29147
     ```groovy
         dependencies {
             ...
-            implementation 'com.github.Mindinventory:MiTextToSpeech:X.X.X'
+            implementation 'com.github.Mindinventory:AutoHighlightTTS:X.X.X'
         }
     ``` 
 
